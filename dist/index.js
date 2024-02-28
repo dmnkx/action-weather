@@ -30867,7 +30867,7 @@ try {
 	const key = core.getInput('key');
 	console.log(`Access Key: ${key}`);
 
-	const content = "Hello, World";
+	const content = "Hello, DMNKX";
 	core.setOutput("content", content);
 
 	const payload = JSON.stringify(github.context.payload, undefined, 2);
