@@ -1,0 +1,15 @@
+name: 'Custom Actions'
+description: 'Get Weather'
+
+inputs:
+  key:
+    description: 'Access Key'
+    required: true
+
+outputs:
+  content:
+    description: 'Send Weather'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
